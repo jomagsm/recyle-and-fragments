@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".photoview.PhotoRatingFragment">
+    android:paddingHorizontal="8dp"
+    tools:context=".fragments.continents.ContinentsFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/pf_recycle"
+        android:id="@+id/rv_countries"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible"
-        />
+        android:layout_height="match_parent" />
 
 </FrameLayout>

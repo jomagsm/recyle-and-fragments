@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.fragment_recycle.numview.SecondFragment;
+import com.example.fragment_recycle.fragments.continents.ContinentsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new SecondFragment()).commit();
+                    .add(R.id.container, new ContinentsFragment()).commit();
         }
     }
 }
